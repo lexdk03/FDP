@@ -1,0 +1,16 @@
+#!/bin/bash
+clear
+
+echo "digite um numero"
+read POSITIVO
+
+if (( $POSITIVO >= 0 )); then
+echo "este numero eh positivo"
+
+else
+	echo "este numero eh negativo"
+fi
+
+
+
+
